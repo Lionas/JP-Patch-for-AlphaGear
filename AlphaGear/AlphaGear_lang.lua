@@ -1,35 +1,35 @@
-local lmb,rmb = '|t16:16:AlphaGear/lmb.dds|t','|t16:16:AlphaGear/rmb.dds|t'
+﻿local lmb,rmb = '|t16:16:AlphaGear/lmb.dds|t','|t16:16:AlphaGear/rmb.dds|t'
 AG = {
 de = {
 	Copy = 'Kopieren',
-	Paste = 'Einfügen',
+	Paste = 'Einfugen',
 	Clear = 'Leeren',
-	Insert = 'Aktuell Ausgerüstete einfügen',
-	Icon = lmb..'Bild manuell auswählen',
+	Insert = 'Aktuell Ausgerustete einfugen',
+	Icon = lmb..'Bild manuell auswahlen',
 	Set = lmb..' Set anlegen\n'..rmb..' Set bearbeiten',
 	NotFound = '<<1>> |cFF0000konnte nicht gefunden werden...|r',
-	NotEnoughSpace = '|cFFAA33AlphaGear|r |cFF0000Nicht genügend Taschenplatz...|r',
+	NotEnoughSpace = '|cFFAA33AlphaGear|r |cFF0000Nicht genugend Taschenplatz...|r',
 	SoulgemUsed = '<<C:1>> |cFFAA33wurde neu aufgeladen.|r',
 	SetPart = '\n|cFFAA33Teil vom Set: <<C:1>>|r',
-	Lock = 'Ist das Set gesperrt, werden leere Plätze ausgezogen.\nIst das Set entsperrt, werden leere Plätze ignoriert.\n\n'..lmb..' Sperren/Entsperren',
-	Unequip = 'Rüstung ausziehen',
+	Lock = 'Ist das Set gesperrt, werden leere Platze ausgezogen.\nIst das Set entsperrt, werden leere Platze ignoriert.\n\n'..lmb..' Sperren/Entsperren',
+	Unequip = 'Rustung ausziehen',
 	UnequipAll = 'Alles ausziehen',
 	SetConnector = {
-		lmb..' Ausrüstung mit Set verbinden\n'..rmb..' Verbindung entfernen',
+		lmb..' Ausrustung mit Set verbinden\n'..rmb..' Verbindung entfernen',
 		lmb..' Aktionsleiste 1 mit Set verbinden\n'..rmb..' Verbindung entfernen',
 		lmb..' Aktionsleiste 2 mit Set verbinden\n'..rmb..' Verbindung entfernen'
 	},
 	Head = {
-		Gear = 'Ausrüstung ',
-		Skill = 'Fähigkeiten '
+		Gear = 'Ausrustung ',
+		Skill = 'Fahigkeiten '
 	},
 	Button = {
 		Gear = '\n'..lmb..' Gegenstand anlegen\n'..rmb..' Gegenstand entfernen',
-		Skill = '\n'..lmb..' Fähigkeit ausrüsten\n'..rmb..' Fähigkeit entfernen'
+		Skill = '\n'..lmb..' Fahigkeit ausrusten\n'..rmb..' Fahigkeit entfernen'
 	},
 	Selector = {
-		Gear = lmb..' Gesamte Ausrüstung anlegen\n'..rmb..' Weitere Optionen',
-		Skill = lmb..' Alle Fähigkeiten ausrüsten\n'..rmb..' Weitere Optionen'
+		Gear = lmb..' Gesamte Ausrustung anlegen\n'..rmb..' Weitere Optionen',
+		Skill = lmb..' Alle Fahigkeiten ausrusten\n'..rmb..' Weitere Optionen'
 	},
 	OptionWidth = 310,
 	Options = {
@@ -42,8 +42,8 @@ de = {
 		'Angelegtes Set anzeigen',
 		'Set-Items im Inventar markieren',
 		'Item-Zustand in Prozent anzeigen',
-		'Item-Qualität als Farbe anzeigen',
-		'Fenster bei Bewegung schließen',
+		'Item-Qualitat als Farbe anzeigen',
+		'Fenster bei Bewegung schliesen',
 		'Alle AlphaGear-Elemente sperren',
 		'Waffen automatisch aufladen'
 	}
@@ -100,48 +100,96 @@ fr = {
 	Copy = 'Copy',
 	Paste = 'Paste',
 	Clear = 'Clear',
-	Insert = 'Placez actuellement équipé',
-	Icon = lmb..'Sélectionnez l\'icône',
-	Set = lmb..' Équiper l\'ensemble\n'..rmb..' Modifier l\'ensemble',
-	NotFound = '<<1>> |cFF0000n\'a pas été trouvé...|r',
+	Insert = 'Placez actuellement equipe',
+	Icon = lmb..'Selectionnez l\'icone',
+	Set = lmb..' Equiper l\'ensemble\n'..rmb..' Modifier l\'ensemble',
+	NotFound = '<<1>> |cFF0000n\'a pas ete trouve...|r',
 	NotEnoughSpace = '|cFFAA33AlphaGear|r |cFF0000Pas assez d\'espace d\'inventaire...|r',
-	SoulgemUsed = '<<C:1>> |cFFAA33a été rechargé.|r',
-	SetPart = '\n|cFFAA33Élément de l\'ensemble: <<C:1>>|r',
-	Lock = 'Si l\'ensemble est verrouillé, tous les slots vides seront déséquipés.\nSi l\'ensemble est déverrouillé, tous les slots vides seront ignorés.\n\n'..lmb..' Verrouiller/Déverrouiller',
+	SoulgemUsed = '<<C:1>> |cFFAA33a ete recharge.|r',
+	SetPart = '\n|cFFAA33Element de l\'ensemble: <<C:1>>|r',
+	Lock = 'Si l\'ensemble est verrouille, tous les slots vides seront desequipes.\nSi l\'ensemble est deverrouille, tous les slots vides seront ignores.\n\n'..lmb..' Verrouiller/Deverrouiller',
 	Unequip = 'Enlever l\'armure',
-	UnequipAll = 'Enlever tous les équipements',
+	UnequipAll = 'Enlever tous les equipements',
 	SetConnector = {
-		lmb..' Linker l\'équipement avec l\'ensemble\n'..rmb..' Supprimer le lien',
+		lmb..' Linker l\'equipement avec l\'ensemble\n'..rmb..' Supprimer le lien',
 		lmb..' Linker la barre d\'action principale avec l\'ensemble\n'..rmb..' Supprimer le lien',
 		lmb..' Linker la barre d\'action secondaire avec l\'ensemble\n'..rmb..' Supprimer le lien'
 	},
 	Head = {
-		Gear = 'Équipement ',
-		Skill = 'Compétences '
+		Gear = 'Equipement ',
+		Skill = 'Competences '
 	},
 	Button = {
-		Gear = lmb..' Équiper l\'objet\n'..rmb..' Supprimer l\'objet',
-		Skill = lmb..' Placer la compétence\n'..rmb..' Supprimer la compétence'
+		Gear = lmb..' Equiper l\'objet\n'..rmb..' Supprimer l\'objet',
+		Skill = lmb..' Placer la competence\n'..rmb..' Supprimer la competence'
 	},
 	Selector = {
-		Gear = lmb..' Équiper tout l\'équipement\n'..rmb..' plus d\'options',
-		Skill = lmb..' Placer toutes les compétences\n'..rmb..' plus d\'options'
+		Gear = lmb..' Equiper tout l\'equipement\n'..rmb..' plus d\'options',
+		Skill = lmb..' Placer toutes les competences\n'..rmb..' plus d\'options'
 	},
 	OptionWidth = 400,
 	Options = {
 		'Afficher le bouton de l\'interface',
 		'Afficher les boutons d\'ensembles',
-		'Afficher l\'icône de réparation',
-		'Afficher le coup de réparation',
-		'Afficher les icônes de charge d\'arme',
+		'Afficher l\'icone de reparation',
+		'Afficher le coup de reparation',
+		'Afficher les icones de charge d\'arme',
 		'Afficher le message de switch d\'arme',
-		'Afficher l\'ensemble porté',
+		'Afficher l\'ensemble porte',
 		'Marquer les objets de set dans l\'inventaire',
 		'Afficher le taux d\'usure en pourcentage',
-		'Afficher la qualité de l\'objet en tant que couleur',
-		'Fermer la fenêtre au déplacement du personnage',
-		'Verrouiller les éléments AlphaGear',
+		'Afficher la qualite de l\'objet en tant que couleur',
+		'Fermer la fenetre au deplacement du personnage',
+		'Verrouiller les elements AlphaGear',
 		'Rechargement automatique de l\'arme'
+	}
+},
+jp = {
+	Copy = 'コピー',
+	Paste = 'ペースト',
+	Clear = 'クリア',
+	Insert = '現在の装備を挿入',
+	Icon = lmb..'アイコンを選択',
+	Set = lmb..' セットを装備\n'..rmb..' セットを編集',
+	NotFound = '<<1>> |cFF0000は見つかりませんでした...|r',
+	NotEnoughSpace = '|cFFAA33AlphaGear|r |cFF0000バッグ容量が不足しています...|r',
+	SoulgemUsed = '<<C:1>> |cFFAA33はリチャージされました.|r',
+	SetPart = '\n|cFFAA33セットの一部: <<C:1>>|r',
+	Lock = 'セットがロックされている場合、全ての空のスロットは装備が外されます。\nセットがロックされていない場合、全ての空のスロットは無視されます。\n\n'..lmb..' ロック/解除',
+	Unequip = '防具を外す',
+	UnequipAll = '全体の防具を外す',
+	SetConnector = {
+		lmb..' セットで装備に接続\n'..rmb..' 接続を削除',
+		lmb..' セットでアクションバー1に接続\n'..rmb..' 接続を削除',
+		lmb..' セットでアクションバー2に接続\n'..rmb..' 接続を削除'
+	},
+	Head = {
+		Gear = '装備 ',
+		Skill = 'スキル '
+	},
+	Button = {
+		Gear = lmb..' アイテムを装備\n'..rmb..' アイテムを削除',
+		Skill = lmb..' スキルを装備\n'..rmb..' スキルを削除'
+	},
+	Selector = {
+		Gear = lmb..' 全体を装備\n'..rmb..' 追加オプション',
+		Skill = lmb..' 全てのスキルを装備\n'..rmb..' 追加オプション'
+	},
+	OptionWidth = 300,
+	Options = {
+		'UIボタンを表示',
+		'UIセットボタンを表示',
+		'修理アイコンを表示',
+		'修理コストを表示',
+		'武器のチャージアイコンを表示',
+		'武器の入れ替えメッセージを表示',
+		'装備セットを表示',
+		'所持品のセットアイテムをマーク',
+		'アイテムの状態をパーセントで表示',
+		'アイテムの品質を色で表示',
+		'移動のウィンドウを閉じる',
+		'全てのAlphaGearの要素をロック',
+		'自動で武器をチャージ'
 	}
 }
 }
