@@ -1,0 +1,12 @@
+## Title: |cFFAA33AlphaGear|r 4.08
+## APIVersion: 100015
+## Version: 4.08
+## SavedVariables: AGX2_Account
+## SavedVariables: AGX2_Character
+## Author: AlphaLemming
+## Description: A outfitter tool with repair and weapon charge display.
+
+AlphaGear_lang.lua
+AlphaGear.lua
+AlphaGear.xml
+Bindings.xml
